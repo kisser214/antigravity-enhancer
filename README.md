@@ -6,6 +6,7 @@
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Version-v1.0.0-blue.svg?style=flat-square" alt="Version">
   <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS-blue?style=flat-square" alt="Platform">
   <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License">
   <img src="https://img.shields.io/badge/Antigravity-2.0%20Ready-orange?style=flat-square" alt="Antigravity">
@@ -90,9 +91,27 @@ antigravity-enhancer/
 
 ---
 
+## 📅 版本记录与规划 (Changelog & Roadmap)
+
+### v1.0.0 (2026-09-29) - 首发里程碑 🎉
+- **[首发] 智能折叠气泡**：自适应收缩至 2.5 行小胶囊，悬停丝滑展开，彻底根治官方 `sticky top-0` 遮挡回复流的顽疾；
+- **[首发] 左右严格分离排版**：用户在右（Codex 经典暖橙气泡）、AI 在左；
+- **[首发] 自愈式深度汉化**：收录 360+ 核心交互词条，支持客户端更新后全天候自动自愈；
+- **[首发] 原生安全多账号分身**：基于 Chromium 沙盒隔离，实现真正同屏多开与零封号风险；
+- **[首发] 4K 极客图标集**：内置高分辨率桌面与文件夹定制图标。
+
+### 🔮 未来版本路线图 (Roadmap)
+- [ ] **v1.1.0**：图形化多账号悬浮切换面板（无需每次点快捷方式，窗口内一键跨号接力）；
+- [ ] **v1.2.0**：Token 配额智能预测与限额倒计时看板；
+- [ ] **v1.3.0**：暗黑极简 / 赛博朋克 / 纸质手账等多款气泡与主题一键切换；
+- [ ] **v1.4.0**：跨分身工作区技能与提示词数据库自动双向同步。
+
+---
+
 ## 🤝 贡献与感谢
 * 核心架构与设计：大春 (Dachun) & Antigravity Jarvis
 * 欢迎提交 Issue 与 Pull Request 补充更多新版菜单词条与样式优化！
 
 ## 📄 开源许可
 本项目遵循 [MIT License](LICENSE)。
+
