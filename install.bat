@@ -42,8 +42,7 @@ echo.
 echo   ✨ 核心特性一览：
 echo     1. 🍊 智能折叠气泡：长文本自动收起，悬停丝滑展开
 echo     2. 🇨🇳 自愈式深度汉化：软件自动更新后仍永不失效
-echo     3. 👥 原生多账号分身：请打开 modules\multi-profile 运行
-echo     4. 🎨 4K极客图标包：位于 assets\icons 目录
+echo     3. 🎨 4K极客图标包：位于 assets\icons 目录
 echo ========================================================
 echo.
 pause

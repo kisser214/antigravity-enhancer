@@ -1,7 +1,7 @@
 {
   "name": "antigravity-enhancer",
-  "version": "1.0.0",
-  "description": "Smart Collapsible Chat Bubbles, Self-Healing I18N Localization, and Safe Multi-Profile Switcher for Google Antigravity.",
+  "version": "1.0.1",
+  "description": "Smart Collapsible Chat Bubbles and Self-Healing I18N Localization for Google Antigravity.",
   "main": "core/injector.mjs",
   "type": "module",
   "scripts": {
@@ -15,7 +15,6 @@
     "chat-bubble",
     "i18n",
     "localization",
-    "multi-account",
     "skills"
   ],
   "author": "大春 (kisser214)",

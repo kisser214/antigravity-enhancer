@@ -1,11 +1,11 @@
 # 🚀 Antigravity-Enhancer
 
 <p align="center">
-  <b>Elevate your Google Antigravity desktop experience with Smart Collapsible Chat Bubbles, Self-Healing I18N Localization, and Safe Multi-Profile Account Switching.</b>
+  <b>Elevate your Google Antigravity desktop experience with Smart Collapsible Chat Bubbles, Strict Left-Right Layout, and Self-Healing I18N Localization.</b>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-v1.0.0-blue.svg?style=flat-square" alt="Version">
+  <img src="https://img.shields.io/badge/Version-v1.0.1-blue.svg?style=flat-square" alt="Version">
   <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS-blue?style=flat-square" alt="Platform">
   <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License">
   <img src="https://img.shields.io/badge/Antigravity-2.0%20Ready-orange?style=flat-square" alt="Antigravity">
@@ -17,11 +17,10 @@
 
 ## 💡 Why Antigravity-Enhancer?
 
-Google Antigravity is a groundbreaking agentic AI coding environment. However, power users frequently run into major UX headaches:
+Google Antigravity is a groundbreaking agentic AI coding environment. However, power users frequently run into UX headaches:
 
 1. **Sticky Header Overlap**: The native client pins user prompts with `sticky top-0`. When pasting long prompts (prompts, instructions, code snippets), the sticky container expands down the screen, blocking up to 60%-80% of the AI's response stream.
 2. **Brittle ASAR Patches**: Modifying `app.asar` gets wiped out every time Antigravity automatically updates, requiring constant manual re-patching.
-3. **Quota Lockout (5-Hour Window)**: Intensive daily workflows frequently trigger rate limits. Manually logging in and out of Google accounts is tedious and clunky.
 
 **Antigravity-Enhancer fixes all of these issues seamlessly.**
 
@@ -38,11 +37,7 @@ Google Antigravity is a groundbreaking agentic AI coding environment. However, p
 * 360+ translated terms covering menus, advanced settings, token budgets, and custom skills.
 * Injected via Chrome DevTools Protocol (CDP) and maintained by a background daemon. **Survives official auto-updates permanently without needing reinstallation.**
 
-### 3. 👥 Safe Multi-Profile Sandboxes
-* Leverages Chromium's native `--user-data-dir` architecture.
-* **Zero proxies, zero reverse-engineering, zero ban risk**: 100% direct official connection. Launch separate shortcuts on your desktop to keep multiple Google Gemini Pro accounts active simultaneously.
-
-### 4. 🎨 4K Geek Icon Suite
+### 3. 🎨 4K Geek Icon Suite
 * High-resolution multi-scale Windows `.ico` assets for custom folder and shortcut aesthetics.
 
 ---
@@ -58,4 +53,4 @@ To uninstall, simply run **`uninstall.bat`** to revert to the stock configuratio
 ---
 
 ## 📄 License
-MIT License. Created with ❤️ by Dachun & Antigravity Jarvis.
+MIT License. Created with ❤️ by Dachun (kisser214) & Antigravity Jarvis.

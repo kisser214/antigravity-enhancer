@@ -1,12 +1,12 @@
 # 🚀 Antigravity-Enhancer (反重力终极增强套件)
 
 <p align="center">
-  <b>让 Google Antigravity 拥有真正人性化的对话体验、永不失效的自愈汉化与多账号安全隔离。</b><br>
-  <i>Smart Collapsible Bubbles, Self-Healing I18N Localization, and Safe Multi-Profile Switcher for Google Antigravity.</i>
+  <b>让 Google Antigravity 拥有真正人性化的对话体验与永不失效的自愈汉化。</b><br>
+  <i>Smart Collapsible Bubbles and Self-Healing I18N Localization for Google Antigravity.</i>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-v1.0.0-blue.svg?style=flat-square" alt="Version">
+  <img src="https://img.shields.io/badge/Version-v1.0.1-blue.svg?style=flat-square" alt="Version">
   <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS-blue?style=flat-square" alt="Platform">
   <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License">
   <img src="https://img.shields.io/badge/Antigravity-2.0%20Ready-orange?style=flat-square" alt="Antigravity">
@@ -19,13 +19,12 @@
 
 ## 💡 为什么需要 Antigravity-Enhancer？
 
-Google Antigravity 是一款强大的下一代 Agentic AI 桌面开发平台，但在日常重度使用中，社区开发者普遍面临三大痛点：
+Google Antigravity 是一款强大的下一代 Agentic AI 桌面开发平台，但在日常重度使用中，社区开发者普遍面临两大视觉与使用痛点：
 
 1. **🚫 吸顶遮挡严重**：官方底层强制对用户提问使用 `sticky top-0` 吸顶。当你输入稍长的提示词（分镜、Prompt、Excel 逻辑）时，长文本会死死钉在屏幕上半区，把 AI 回复的内容彻底挡住！
 2. **💔 汉化升级就挂**：传统的修改 `app.asar` 汉化补丁，只要官方一自动更新就会被全面覆盖冲掉，每隔几天就得重新手动打补丁。
-3. **⏳ 5小时限额卡脖子**：日常重度开发经常撞上配额上限，而频繁手动登出/登入切换账号不仅繁琐，还容易触发异常风控。
 
-**Antigravity-Enhancer 为此而生，一站式完美解决上述所有痛点！**
+**Antigravity-Enhancer 为此而生，一站式完美解决上述痛点！**
 
 ---
 
@@ -40,11 +39,7 @@ Google Antigravity 是一款强大的下一代 Agentic AI 桌面开发平台，�
 * 覆盖菜单、系统设置、模型配置、Token 配额面板、MCP 面板等 360+ 核心交互词条。
 * **软件升级永不失效**：基于 Chrome DevTools 协议（CDP）热注入 + Windows 自愈计划任务，即使官方夜间自动升级，后台守护秒级自动重新挂载，无需重新安装！
 
-### 3. 👥 安全本地多账号分身 (Safe Multi-Profile Isolated Sandboxes)
-* 基于 Chromium 原生 `--user-data-dir` 物理沙盒隔离。
-* **0 反代、0 代理、零封号风险**：完全直连 Google 官方服务器，生成独立的桌面快捷方式（如“Antigravity 账号2”），多个账号永不掉线，双击秒开无缝接力。
-
-### 4. 🎨 4K 极客图标库与文件夹定制
+### 3. 🎨 4K 极客图标库与文件夹定制
 * 内置专为 Windows 高清缩放优化的 4K 多分辨率图标（`.ico`）：Google 官方彩虹波浪、Codex 3D 浮雕花、WorkBuddy 吉祥物等。
 
 ---
@@ -61,8 +56,6 @@ antigravity-enhancer/
 ├── dicts/
 │   ├── zh-CN.json          # 完整中文汉化词库（360+ 词条）
 │   └── overrides.json      # 支持用户自定义词条扩充
-├── modules/
-│   └── multi-profile/      # 多账号分身创建工具 (create-profile.bat)
 └── assets/
     └── icons/              # 4K 高清图标资产库
 ```
@@ -86,32 +79,18 @@ antigravity-enhancer/
 
 ---
 
-## 🛠️ 创建多账号分身
-进入 `modules/multi-profile/` 文件夹，双击运行 **`create-profile.bat`**，输入分身名称（例如 `Pro号`），桌面将自动生成该分身的专用快捷方式。在分身中登录另一个 Google 账号即可实现双号同时在线！
-
----
-
 ## 📅 版本记录与规划 (Changelog & Roadmap)
+
+### v1.0.1 (2026-10-10) - 纯净专注更新
+- **架构聚焦**：移除实验性多开分身，专注于防遮挡智能折叠气泡、左右排版与 CDP 级自愈汉化核心体验。
 
 ### v1.0.0 (2026-09-29) - 首发里程碑 🎉
 - **[首发] 智能折叠气泡**：自适应收缩至 2.5 行小胶囊，悬停丝滑展开，彻底根治官方 `sticky top-0` 遮挡回复流的顽疾；
 - **[首发] 左右严格分离排版**：用户在右（Codex 经典暖橙气泡）、AI 在左；
 - **[首发] 自愈式深度汉化**：收录 360+ 核心交互词条，支持客户端更新后全天候自动自愈；
-- **[首发] 原生安全多账号分身**：基于 Chromium 沙盒隔离，实现真正同屏多开与零封号风险；
-- **[首发] 4K 极客图标集**：内置高分辨率桌面与文件夹定制图标。
-
-### 🔮 未来版本路线图 (Roadmap)
-- [ ] **v1.1.0**：图形化多账号悬浮切换面板（无需每次点快捷方式，窗口内一键跨号接力）；
-- [ ] **v1.2.0**：Token 配额智能预测与限额倒计时看板；
-- [ ] **v1.3.0**：暗黑极简 / 赛博朋克 / 纸质手账等多款气泡与主题一键切换；
-- [ ] **v1.4.0**：跨分身工作区技能与提示词数据库自动双向同步。
+- **[首发] 4K 极客图标包**：提供高清桌面与任务栏图标方案。
 
 ---
 
-## 🤝 贡献与感谢
-* 核心架构与设计：大春 (Dachun) & Antigravity Jarvis
-* 欢迎提交 Issue 与 Pull Request 补充更多新版菜单词条与样式优化！
-
-## 📄 开源许可
-本项目遵循 [MIT License](LICENSE)。
-
+## 📄 开源协议 (License)
+本项目采用 [MIT License](LICENSE) 协议开源。
