@@ -42,6 +42,18 @@ Google Antigravity is a groundbreaking agentic AI coding environment. However, p
 
 ---
 
+## 💡 Best Practices: Multi-Account Management & Anti-Ban Tips
+
+For power users who maintain multiple Google accounts to cycle through 5-hour model cooldowns and weekly quotas:
+
+We recommend pairing with the standalone community utility **Antigravity Tools**:
+* **Key Advantages**: Clean credential switcher with zero interference to your local workspace, paired with real-time visual tracking of 5-hour rolling limits and weekly caps.
+* ⚠️ **Crucial Anti-Ban Notice**:
+  * **DO NOT** enable the built-in "API Reverse Proxy" (API 反代) or "Relay Station" (中转站) features.
+  * Use **Account Management (账号管理)** only to switch accounts for the official desktop app. This preserves authentic client headers and network safety. Running automated proxy relays or concurrent API scraping risks immediate account suspension by Google.
+
+---
+
 ## 🚀 Quick Start (Windows)
 
 1. Clone or download this repository.
