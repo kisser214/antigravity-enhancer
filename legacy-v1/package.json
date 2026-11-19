@@ -1,0 +1,30 @@
+{
+  "name": "antigravity-enhancer",
+  "version": "1.0.1",
+  "description": "Smart Collapsible Chat Bubbles and Self-Healing I18N Localization for Google Antigravity.",
+  "main": "core/injector.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node core/injector.mjs"
+  },
+  "keywords": [
+    "antigravity",
+    "google-antigravity",
+    "antigravity-ide",
+    "ui-enhancement",
+    "chat-bubble",
+    "i18n",
+    "localization",
+    "skills"
+  ],
+  "author": "大春 (kisser214)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kisser214/antigravity-enhancer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kisser214/antigravity-enhancer/issues"
+  },
+  "homepage": "https://github.com/kisser214/antigravity-enhancer#readme"
+}

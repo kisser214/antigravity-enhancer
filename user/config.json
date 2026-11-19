@@ -1,0 +1,19 @@
+{
+  "enabled": true,
+  "channel": "auto",
+  "preset": "high-contrast",
+  "darkPreset": "onyx",
+  "contextLimit": 256000,
+  "modules": {
+    "i18n": true,
+    "metrics": true,
+    "composerWaxSeal": true,
+    "deadlockHealer": true,
+    "coldBootHealer": true,
+    "zoomShortcuts": true,
+    "cdpAutoRelaunch": true,
+    "customCss": true,
+    "customJs": true
+  },
+  "themeVars": {}
+}
